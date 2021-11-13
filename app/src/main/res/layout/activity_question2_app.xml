@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDD835"
+    tools:context=".Question2App">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="155dp"
+        android:layout_height="38dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+        android:text="USER REGISTRATION"
+        android:textStyle="bold"
+        android:textColor="#F44336" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Enter Username"
+        android:inputType="textPersonName"
+        android:textColor="#F44336"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="145dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+        android:textColor="#F44336"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="201dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="213dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:text="Choose Gender" />
+
+    <RadioGroup
+        android:id="@+id/RGrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/Radiobtn"
+            android:layout_width="148dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="266dp"
+            android:text="MALE"
+            android:textColor="#F44336"
+            android:textStyle="bold"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/Radiobtn2"
+            android:layout_width="148dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="30dp"
+            android:text="FEMALE"
+            android:textColor="#F44336"
+            android:textStyle="bold"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/Radiobtn3"
+            android:layout_width="148dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="30dp"
+            android:text="RATHER NOT SAY"
+            android:textColor="#F44336"
+            android:textStyle="bold"></RadioButton>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="565dp"
+        android:text="SUBMIT" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="333dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="158dp"
+        android:textColor="#F44336"
+        android:text="I Accept the Terms and Conditions" />
+
+
+</RelativeLayout>
